@@ -151,7 +151,7 @@ From Figure \ref{fig:tsne} we can draw that the model learnt to \textit{cluster}
 	\caption{Time series and extracted features from our preliminary GUM experiment.}
 \end{figure*}
 
-\textbf{Case study.} This consists of a detailed example of a real-world time series forecasting task solved with MOrdReD. As opposed to benchmarking our method in a domain-blind fashion, this task involves comparing our performance against other approaches \textit{in the application domain}. This includes benchmarking against approaches that have been recognised in industry and academia for the specific task of interest, and also employing the extensions described so far to incorporate related exogenous time series and other relevant domain knowledge. Preliminarily, due to the authors' previous experience in this domain, this task would consist in forecasting the UK's hourly national solar energy output, as there exist plenty of open available data resources (such as the Met Office's Data Point\footnote{\url{https://www.metoffice.gov.uk/datapoint}} and the University of Sheffield's Sheffield Solar project\footnote{\url{https://www.solar.sheffield.ac.uk/pvlive/}}).
+\textbf{Case study.} This consists of a detailed example of a real-world time series forecasting task solved with MOrdReD. As opposed to benchmarking our method in a domain-blind fashion, this task involves comparing our performance against other approaches \textit{in the application domain}. This includes benchmarking against approaches that have been recognised in industry and academia for the specific task of interest, and also employing the extensions described so far to incorporate related exogenous time series and other relevant domain knowledge. Previously, due to the authors' previous experience in this domain, this task would consist in forecasting the UK's hourly national solar energy output, as there exist plenty of open available data resources (such as the Met Office's Data Point\footnote{\url{https://www.metoffice.gov.uk/datapoint}} and the University of Sheffield's Sheffield Solar project\footnote{\url{https://www.solar.sheffield.ac.uk/pvlive/}}).
 
 
 \section{Estimate of current state of completion}
@@ -181,7 +181,7 @@ Having described the state of each research item, we now present how these colla
 
 \textbf{Chapter 2. Background and literature review.} This is an updated version of my transfer of status report. In this chapter we introduce all the needed background to go through the rest of the thesis, crucially concepts such as: ordinal regression, recurrent neural networks, dropout as approximate Bayes, etc.
 
-\textbf{Chapter 3. Memory-based ordinal regression deep neural networks (MordReD).} This chapter is largely based on the accompanying journal paper. We introduce our ordinal regression framework and the large-scale benchmarking experiment described in the paper.
+\textbf{Chapter 3. Memory-based ordinal regression deep neural networks (MOrdReD).} This chapter is largely based on the accompanying journal paper. We introduce our ordinal regression framework and the large-scale benchmarking experiment described in the paper.
 
 \textbf{Chapter 4. MOrdReD extensions.} In this chapter, we describe the MOrdReD extensions we have developed, namely: 
 \begin{itemize}
@@ -223,6 +223,54 @@ The gravest identified risks are the following:
 
 \section{Training and development}
 This section is reproduced from the GSO.14.MPLS form submitted alongside this report.
+
+\textbf{1. Please describe briefly any subject specific research skills that you have developed or improved in the course of your time as a research student. For example, these might include: research methodology; data analysis and management; record keeping; bibliographical skills; presentation of research.}
+ 
+During these 9 terms of doctoral research, I have been able to improve my critical understanding of academic publications. This is crucial in spotting strengths and weaknesses of research in the main, and finding areas of improvement for future work.
+
+In terms of research management, I now have clearer ideas and skills on the critical issues of reproducibility and ease of access to research results. In comparison with two years ago, now I feel more careful in terms of guaranteeing I always store intermediate and final results, and in terms of creating generic solutions that can easily be accessed, read and reproduced by anyone in the audience. Such record keeping skills are crucial in areas like Machine Learning, where track needs to be kept for parameters, hyperparameters, plots and even random number generator seeds.
+
+During this last couple of years, we have also made several submissions to Machine Learning conferences. This has undoubtedly helped me to improve my academic writing skills. Evidence of this can be seen in the latest version of our paper in comparison with the very first one some time ago. The improvement in the shape and presentation of this work can be clearly seen.
+
+In addition, I have also had the opportunity to give several presentations, either locally in our group, or as an invited speaker at other universities or groups. This has aided me to improve my oral presentation skills, and importantly being more fluent while giving presentations in English.
+
+Finally, I have also developed skills in data analysis and presentation, crucially gaining a better understanding of visual tools frequently used in the Stati
+
+\textbf{2. Please describe briefly any personal and professional skills in which you have received training or which you have enhanced during the course of your time as a research student. For example, these might include: time management; language skills; IT skills; team work; problem solving; presentation skills; teaching skills; career planning.}
+
+Regarding time management, I have learnt how to better estimate the duration of research activities for better planning. This definitely helps to make realistic plans of what can be achieved under given time frames. I have also managed to consistently maintain a self-managed daily routine, which is a valuable skill to meet deadlines and stick to timetables.
+
+In terms of academic language skills, I feel an improvement not only in how I use the English language, but also in the manner in which I express my ideas in academic documents. One of my first issues in academic writing is a tendency to become very didactic, or struggling to determine the “sweet spot” of when something needs to be explained, and when it can be taken for granted in your audience. Whereas I can still further improve this skill, I definitely sense an improvement in comparison with two years ago.
+
+As for IT skills, I have additionally gained some understanding in an ample set of valuable software packages, such as: Pandas, Keras, Tensorflow, Scikit-learn, GPy, Numpy/Scipy, Statsmodels, etc. This culminated in a time series forecasting Python library I wrote that is now online. 
+
+Regarding teamwork, I can develop on three different axes: the first and most valuable comes from the teamwork I have done with my own supervisor. I work very closely with him and receive valuable feedback. The second axis comes from lab teamwork. I have co-authored two papers with lab peers, which has undoubtedly led to extremely valuable discussions and novel ideas that have been reflected in our research products. The third axis is the experience I received during the internships I did during my PhD. This enabled me to further understand the research environments of industry. Incidentally, this also allowed me to better plan my career ahead, as now I have a clearer idea on the extents in which academia and industry are different, and crucially the pros and cons of each.
+
+In terms of problem solving, thanks to the opportunity I have had to hone my research methodology, I believe I have better, more reasonable approaches to solve problems, in particular in terms of how to approach very open and ill-defined problems.
+
+As for teaching skills, even if I have not taken any teaching seminars again since Year 1, I have had the opportunity to work on this skills through each of the modules I have given in the last two years. More detail on this is given in section D.
+
+\textbf{3. Please identify any subject-specific or personal and professional skills in which you (and your supervisor(s)) foresee the need for further development or training.}
+
+Despite the improvement that I perceive in my writing skills from two years ago, I still feel this is an area of improvement for me. Mainly, I still find myself being too slow when expressing academic ideas in written English. This definitely has an impact on my performance, as I could be spending too much time on tasks that I could otherwise perform faster.
+
+One additional skill I can improve is my fashion of presenting the results of my research. I can still find myself using far-from-ideal plots that are not representative of our results, or not polishing my submissions well enough. I have been working on this skill, but I think improving on this is one priority in this last DPhil year.
+
+
+\textbf{4. Please list any other activities which have contributed to the development of your work. For example, these might include courses attended, conference presentations given, publications, opportunities to undertake teaching etc.}
+
+Over the last couple of years, I have undertaken two research internships, one at Mind Foundry Ltd. and another one at the Alan Turing Institute. Both of these gave me the opportunity to get a clearer idea of the type of professional career I want to pursue after my DPhil. Crucially, I was able to experience two very different research environments, one from an industrial and another from a rather academic point of view. I also got to experience the type of projects clients in the main are currently interested in, and what kind of methods they use with respect to the standpoint of academia. 
+
+I had a third, part-time position in a slightly different area: public policy at the Mexican Forum of Science and Technology, who are the official source of scientific advice for the Mexican Congress. The main byproduct of this stay was a published article on legislative aspects of AI in developing countries, aimed at Mexican Federal Senators and Deputies. This enabled me to further gain an understanding of other softer aspects of my field, while also allowing me to have a short-term career in scientific public policy, which is an additional professional interest of mine.
+
+I additionally undertook a wide range of teaching activities over the last 9 terms: 
+\begin{itemize}
+    \item Signal Processing practicals (AIMS CDT): Michaelmas 2016, 2017
+    \item Machine Learning practicals (MSc CS): Hilary 2016, Michaelmas 2016, 2017
+    \item Tutor for visiting students (Wadham College): Machine Learning (Michaelmas 2016, Trinity 2017), Deep Learning for Natural Language Processing (Hilary 2017), Reinforcement Learning (Trinity 2017)
+\end{itemize}
+
+With regard to presentations given, I have been an invited seminar series speaker at the Warwick University Machine Learning Group, in addition to three different seminar tea talks at our own research group.
 
 
 \bibliographystyle{humannat}
