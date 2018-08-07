@@ -1,0 +1,1041 @@
+% Bibliography for Mordred
+
+@BOOK{
+	Bucker2005ADA,
+	editor = "H. Martin B{\"u}cker and George F. Corliss and Paul D. Hovland and Uwe
+	Naumann and Boyana Norris",
+	title = "Automatic Differentiation: {A}pplications, Theory, and Implementations",
+	series = "Lecture Notes in Computational Science and Engineering",
+	publisher = "Springer",
+	address = "New York, NY",
+	ad_theotech = "General",
+	year = "2005",
+	volume = "50",
+	doi = "10.1007/3-540-28438-9"
+}
+@article{Beaufays2014,
+	abstract = {Long Short-Term Memory (LSTM) is a specific recurrent neu- ral network (RNN) architecture thatwas designed to model tem- poral sequences and their long-range dependencies more accu- rately than conventional RNNs. In this paper, we exploreLSTM RNN architectures for large scale acoustic modeling in speech recognition. We recently showed that LSTM RNNs are more effective than DNNs and conventional RNNs for acoustic mod- eling, considering moderately-sized models trained on a single machine. Here, we introduce the first distributed training of LSTM RNNs using asynchronous stochastic gradient descent optimization on a large cluster of machines. We show that a two-layer deep LSTM RNN where each LSTM layer has a lin- ear recurrent projection layer can exceed state-of-the-art speech recognition performance. This architecture makes more effec- tive use of model parameters than the others considered, con- verges quickly, and outperforms a deep feed forward neural net- work having an order of magnitude more parameters. Index Terms: Long Short-Term Memory, LSTM, recurrent neural network, RNN, speech recognition, acoustic modeling},
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1402.1128v1},
+	author = {Beaufays, Francoise and Sak, Hasim and Senior, Andrew},
+	eprint = {arXiv:1402.1128v1},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/43905.pdf:pdf},
+	journal = {Interspeech},
+	volume    = {abs/1402.1128},
+	mendeley-groups = {LSTMWorkshop},
+	number = {September},
+	pages = {338--342},
+	title = {{Long Short-Term Memory Recurrent Neural Network Architectures for Large Scale Acoustic Modeling Has}},
+	year = {2014}
+}
+@article{Graves2013_2,
+	abstract = {This paper shows how Long Short-term Memory recurrent neural networks can be used to generate complex sequences with long-range structure, simply by predicting one data point at a time. The approach is demonstrated for text (where the data are discrete) and online handwriting (where the data are real-valued). It is then extended to handwriting synthesis by allowing the network to condition its predictions on a text sequence. The resulting system is able to generate highly realistic cursive handwriting in a wide variety of styles.},
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1308.0850v5},
+	author = {Graves, Alex},
+	doi = {10.1145/2661829.2661935},
+	eprint = {arXiv:1308.0850v5},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1308.0850v5.pdf:pdf},
+	isbn = {2000201075},
+	issn = {18792782},
+	journal = {CoRR},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--43},
+	pmid = {23459267},
+	title = {{Generating sequences with recurrent neural networks}},
+	url = {http://arxiv.org/abs/1308.0850},
+	year = {2013}
+}
+@article{Graves2013,
+	abstract = {Recurrent neural networks (RNNs) are a powerful model for sequential data. End-to-end training methods such as Connectionist Temporal Classification make it possible to train RNNs for sequence labelling problems where the input-output alignment is unknown. The combination of these methods with the Long Short-term Memory RNN architecture has proved particularly fruitful, delivering state-of-the-art results in cursive handwriting recognition. However RNN performance in speech recognition has so far been disappointing, with better results returned by deep feedforward networks. This paper investigates $\backslash$emph{\{}deep recurrent neural networks{\}}, which combine the multiple levels of representation that have proved so effective in deep networks with the flexible use of long range context that empowers RNNs. When trained end-to-end with suitable regularisation, we find that deep Long Short-term Memory RNNs achieve a test set error of 17.7{\%} on the TIMIT phoneme recognition benchmark, which to our knowledge is the best recorded score.},
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1303.5778v1},
+	author = {Graves, Alex and Mohamed, Abdel-rahman and Hinton, Geoffrey},
+	doi = {10.1109/ICASSP.2013.6638947},
+	eprint = {arXiv:1303.5778v1},
+	file = {:home/ber/.local/share/data/Mendeley Ltd./Mendeley Desktop/Downloaded/Graves, Mohamed, Hinton - 2013 - Speech Recognition With Deep Recurrent Neural Networks.pdf:pdf},
+	isbn = {978-1-4799-0356-6},
+	issn = {1520-6149},
+	journal = {ICASSP},
+	mendeley-groups = {RNN,LSTMWorkshop},
+	title = {{Speech Recognition With Deep Recurrent Neural Networks}},
+	year = {2013}
+}
+@article{Kingma2014,
+	abstract = {We introduce Adam, an algorithm for first-order gradient-based optimization of stochastic objective functions, based on adaptive estimates of lower-order moments. The method is straightforward to implement, is computationally efficient, has little memory requirements, is invariant to diagonal rescaling of the gradients, and is well suited for problems that are large in terms of data and/or parameters. The method is also appropriate for non-stationary objectives and problems with very noisy and/or sparse gradients. The hyper-parameters have intuitive interpretations and typically require little tuning. Some connections to related algorithms, on which Adam was inspired, are discussed. We also analyze the theoretical convergence properties of the algorithm and provide a regret bound on the convergence rate that is comparable to the best known results under the online convex optimization framework. Empirical results demonstrate that Adam works well in practice and compares favorably to other stochastic optimization methods. Finally, we discuss AdaMax, a variant of Adam based on the infinity norm.},
+	archivePrefix = {arXiv},
+	arxivId = {1412.6980},
+	author = {Kingma, Diederik and Ba, Jimmy},
+	eprint = {1412.6980},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1412.6980v8.pdf:pdf},
+	journal = {International Conference on Learning Representations},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--13},
+	title = {{Adam: A Method for Stochastic Optimization}},
+	url = {http://arxiv.org/abs/1412.6980},
+	year = {2014}
+}
+@article{Le2012,
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1112.6209v5},
+	author = {Le, Quoc V and Ranzato, Marc Aurelio and Devin, Matthieu and Corrado, Greg S and Ng, Andrew Y},
+	eprint = {arXiv:1112.6209v5},
+	file = {:home/ber/Dropbox/to{\_}read/high{\_}level{\_}features{\_}deep{\_}learning.pdf:pdf},
+	mendeley-groups = {Machine Learning,DLPrimer,LSTMWorkshop},
+	title = {{Building High-level Features Using Large Scale Unsupervised Learning}},
+	year = {2012}
+}
+@inproceedings{Long2014,
+	author    = {Oriol Vinyals and
+	Alexander Toshev and
+	Samy Bengio and
+	Dumitru Erhan},
+	title     = {Show and tell: {A} neural image caption generator},
+	booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition, {CVPR}
+	2015, Boston, MA, USA, June 7-12, 2015},
+	pages     = {3156--3164},
+	year      = {2015},
+	crossref  = {DBLP:conf/cvpr/2015},
+	url       = {http://dx.doi.org/10.1109/CVPR.2015.7298935},
+	doi       = {10.1109/CVPR.2015.7298935},
+	timestamp = {Thu, 28 Apr 2016 10:52:27 +0200},
+	biburl    = {http://dblp.uni-trier.de/rec/bib/conf/cvpr/VinyalsTBE15},
+	bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+@proceedings{DBLP:conf/cvpr/2015,
+	title     = {{IEEE} Conference on Computer Vision and Pattern Recognition, {CVPR}
+	2015, Boston, MA, USA, June 7-12, 2015},
+	publisher = {{IEEE} Computer Society},
+	year      = {2015},
+	url       = {http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=7293313},
+	isbn      = {978-1-4673-6964-0},
+	timestamp = {Thu, 28 Apr 2016 10:52:27 +0200},
+	biburl    = {http://dblp.uni-trier.de/rec/bib/conf/cvpr/2015},
+	bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+@article{Prasad2014,
+	abstract = {Ability of deep networks to extract high level features and of recurrent networks to perform time-series inference have been studied. In view of universality of one hidden layer network at approximating functions under weak constraints, the benefit of multiple layers is to enlarge the space of dynamical systems approximated or, given the space, reduce the number of units required for a certain error. Traditionally shallow networks with manually engineered features are used, back-propagation extent is limited to one and attempt to choose a large number of hidden units to satisfy the Markov condition is made. In case of Markov models, it has been shown that many systems need to be modeled as higher order. In the present work, we present deep recurrent networks with longer backpropagation through time extent as a solution to modeling systems that are high order and to predicting ahead. We study epileptic seizure suppression electro-stimulator. Extraction of manually engineered complex features and prediction employing them has not allowed small low-power implementations as, to avoid possibility of surgery, extraction of any features that may be required has to be included. In this solution, a recurrent neural network performs both feature extraction and prediction. We prove analytically that adding hidden layers or increasing backpropagation extent increases the rate of decrease of approximation error. A Dynamic Programming (DP) training procedure employing matrix operations is derived. DP and use of matrix operations makes the procedure efficient particularly when using data-parallel computing. The simulation studies show the geometry of the parameter space, that the network learns the temporal structure, that parameters converge while model output displays same dynamic behavior as the system and greater than .99 Average Detection Rate on all real seizure data tried.},
+	archivePrefix = {arXiv},
+	arxivId = {1407.5949},
+	author = {Prasad, Sharat C and Prasad, Piyush},
+	eprint = {1407.5949},
+	file = {:home/ber/Dropbox/to{\_}read/tsprediction{\_}drnn.pdf:pdf},
+	mendeley-groups = {DLPrimer,LSTMWorkshop},
+	pages = {1--54},
+	title = {{Deep Recurrent Neural Networks for Time Series Prediction}},
+	url = {http://arxiv.org/abs/1407.5949},
+	volume = {95070},
+	year = {2014}
+}
+@article{Simonyan2015,
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1409.1556v6},
+	author = {Simonyan, Karen and Zisserman, Andrew},
+	journal = {ICLR 2015},
+	eprint = {arXiv:1409.1556v6},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1409.1556.pdf:pdf},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--14},
+	title = {{Very Deep Convolutional Networks for Large-Scale Image Recognition}},
+	year = {2015}
+}
+@article{Szegedy,
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1409.4842v1},
+	author = {Szegedy, Christian and Reed, Scott and Sermanet, Pierre and Vanhoucke, Vincent and Rabinovich, Andrew},
+	eprint = {arXiv:1409.4842v1},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1409.4842v1.pdf:pdf},
+	journal = {Computer Vision and Pattern Recognition (CVPR) (2015)},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--12},
+	title = {{Going deeper with convolutions}},
+	year = {2015}
+}
+@article{You2016,
+	author    = {Quanzeng You and
+	Hailin Jin and
+	Zhaowen Wang and
+	Chen Fang and
+	Jiebo Luo},
+	title     = {Image Captioning with Semantic Attention},
+	journal   = {CoRR},
+	volume    = {abs/1603.03925},
+	year      = {2016},
+	url       = {http://arxiv.org/abs/1603.03925},
+	timestamp = {Sat, 02 Apr 2016 11:49:48 +0200},
+	biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/YouJWFL16},
+	bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+@article{Cybenko1993,
+	abstract = {In this paper we demonstrate that finite linear combinations of compositions of a fixed, univariate function and a set of affine functionals can uniformly approximate any continuous function ofn real variables with support in the unit hypercube; only mild conditions are imposed on the univariate function. Our results settle an open question about representability in the class of single hidden layer neural networks. In particular, we show that arbitrary decision regions can be arbitrarily well approximated by continuous feedforward neural networks with only a single internal, hidden layer and any continuous sigmoidal nonlinearity. The paper discusses approximation properties of other possible types of nonlinearities that might be implemented by artificial neural networks.},
+	author = {Cybenko, G.},
+	doi = {10.1007/BF02836480},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/Cybenko{\_}MCSS.pdf:pdf},
+	isbn = {0780300564},
+	issn = {10009221},
+	journal = {Approximation Theory and its Applications},
+	keywords = {approximation,completeness,neural networks},
+	mendeley-groups = {LSTMWorkshop},
+	number = {3},
+	pages = {17--28},
+	title = {{Degree of approximation by superpositions of a sigmoidal function}},
+	volume = {9},
+	year = {1993}
+}
+@article{Paul2014,
+	abstract = {Why does Deep Learning work? What representations does it capture? How do higher-order representations emerge? We study these questions from the perspective of group theory, thereby opening a new approach towards a theory of Deep learning. One factor behind the recent resurgence of the subject is a key algorithmic step called pre-training: first search for a good generative model for the input samples, and repeat the process one layer at a time. We show deeper implications of this simple principle, by establishing a connection with the interplay of orbits and stabilizers of group actions. Although the neural networks themselves may not form groups, we show the existence of {\{}$\backslash$em shadow{\}} groups whose elements serve as close approximations. Over the shadow groups, the pre-training step, originally introduced as a mechanism to better initialize a network, becomes equivalent to a search for features with minimal orbits. Intuitively, these features are in a way the {\{}$\backslash$em simplest{\}}. Which explains why a deep learning network learns simple features first. Next, we show how the same principle, when repeated in the deeper layers, can capture higher order representations, and why representation complexity increases as the layers get deeper.},
+	archivePrefix = {arXiv},
+	arxivId = {1412.6621},
+	author = {Paul, Arnab and Venkatasubramanian, Suresh},
+	eprint = {1412.6621},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1412.6621v3.pdf:pdf},
+	isbn = {1412.6621},
+	journal = {Arxiv},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {13},
+	title = {{Why does Deep Learning work? - A perspective from Group Theory}},
+	url = {http://arxiv.org/abs/1412.6621},
+	year = {2014}
+}
+@article{Schmidhuber2007,
+	abstract = {In recent years, gradient-based LSTM recurrent neural networks (RNNs) solved many previously RNN-unlearnable tasks. Sometimes, however, gradient information is of little use for training RNNs, due to numerous local minima. For such cases, we present a novel method: EVOlution of systems with LINear Outputs (Evolino). Evolino evolves weights to the nonlinear, hidden nodes of RNNs while computing optimal linear mappings from hidden state to output, using methods such as pseudo-inverse-based linear regression. If we instead use quadratic programming to maximize the margin, we obtain the first evolutionary recurrent support vector machines. We show that Evolino-based LSTM can solve tasks that Echo State nets (Jaeger, 2004a) cannot and achieves higher accuracy in certain continuous function generation tasks than conventional gradient descent RNNs, including gradient-based LSTM.},
+	author = {Schmidhuber, J{\"{u}}rgen and Wierstra, Daan and Gagliolo, Matteo and Gomez, Faustino},
+	doi = {10.1162/neco.2007.19.3.757},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/nc2007.pdf:pdf},
+	isbn = {0899-7667 (Print)$\backslash$r0899-7667 (Linking)},
+	issn = {0899-7667},
+	journal = {Neural computation},
+	keywords = {evolino,ining recurrent networks by},
+	mendeley-groups = {LSTMWorkshop},
+	number = {3},
+	pages = {757--779},
+	pmid = {17298232},
+	title = {{Training recurrent networks by Evolino.}},
+	volume = {19},
+	year = {2007}
+}
+@article{Sexton1999,
+	abstract = {The escalation of Neural Network research in Business has been brought about by the ability of neural networks, as a tool, to closely approximate unknown functions to any degree of desired accuracy. Although, gradient based search techniques such as back-propagation are currently the most widely used optimization techniques for training neural networks, it has been shown that these gradient techniques are severely limited in their ability to find global solutions. Global search techniques have been identified as a potential solution to this problem. In this paper we examine two well known global search techniques, Simulated Annealing and the Genetic Algorithm, and compare their performance. A Monte Carlo study was conducted in order to test the appropriateness of these global search techniques for optimizing neural networks.},
+	author = {Sexton, Randall S. and Dorsey, Robert E. and Johnson, John D.},
+	doi = {10.1016/S0377-2217(98)00114-3},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/gasa.pdf:pdf},
+	isbn = {0377-2217},
+	issn = {03772217},
+	journal = {European Journal of Operational Research},
+	mendeley-groups = {LSTMWorkshop},
+	number = {3},
+	pages = {589--601},
+	title = {{Optimization of neural networks: A comparative analysis of the genetic algorithm and simulated annealing}},
+	volume = {114},
+	year = {1999}
+}
+@article{Tobergte2013,
+	abstract = {applicability for this approach.},
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1011.1669v3},
+	author = {Tobergte, David R. and Curtis, Shirley},
+	doi = {10.1017/CBO9781107415324.004},
+	eprint = {arXiv:1011.1669v3},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/nnlstmkalman.pdf:pdf},
+	isbn = {9788578110796},
+	issn = {1098-6596},
+	journal = {Journal of Chemical Information and Modeling},
+	keywords = {icle},
+	mendeley-groups = {LSTMWorkshop},
+	number = {9},
+	pages = {1689--1699},
+	pmid = {25246403},
+	title = {{Kalman filters improve LSTM network performance in problems unsolvable by traditional recurrent nets}},
+	volume = {53},
+	year = {2013}
+}
+@article{Bishop1995,
+	abstract = {Bayesian techniques have been developed over many years in a range of different fields, but have only recently been applied to the problem of learning in neural networks. As well as providing a consistent framework for statistical pattern recognition, the Bayesian approach offers a number of practical advantages including a potential solution to the problem of over-fitting. This chapter aims to provide an introductory overview of the application of Bayesian methods to neural networks. It assumes the reader is familiar with standard feed-forward network models and how to train them using conventional techniques.},
+	author = {Bishop, Christopher M},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/NCRG{\_}95{\_}009.pdf:pdf},
+	journal = {Aston University Neural Computing Research Group Journal},
+	keywords = {mathematical computing sciences not elsewhere clas},
+	mendeley-groups = {LSTMWorkshop},
+	number = {1},
+	pages = {1--11},
+	title = {{Bayesian methods for neural networks}},
+	url = {http://eprints.aston.ac.uk/1131/},
+	volume = {7},
+	year = {1995}
+}
+@misc{Ruder2015,
+	author = {Ruder, Sebastian},
+	mendeley-groups = {LSTMWorkshop},
+	title = {{An overview of gradient descent optimisation algorithms}},
+	year = {2015}
+}
+@article{Duchi2011,
+	abstract = {We present a new family of subgradient methods that dynamically incorporate knowledge of the geometry of the data observed in earlier iterations to perform more informative gradient-based learning. Metaphorically, the adaptation allows us to find needles in haystacks in the form of very predictive but rarely seen features. Our paradigm stems from recent advances in stochastic optimization and online learning which employ proximal functions to control the gradient steps of the algorithm. We describe and analyze an apparatus for adaptively modifying the proximal function, which significantly simplifies setting a learning rate and results in regret guarantees that are provably as good as the best proximal function that can be chosen in hindsight. We give several efficient algorithms for empirical risk minimization problems with common and important regularization functions and domain constraints. We experimentally study our theoretical analysis and show that adaptive subgradient methods outperform state-of-the-art, yet non-adaptive, subgradient algorithms.},
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1103.4296v1},
+	author = {Duchi, John and Hazan, Elad and Singer, Yoram},
+	doi = {10.1109/CDC.2012.6426698},
+	eprint = {arXiv:1103.4296v1},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/duchi11a.pdf:pdf},
+	isbn = {9780982252925},
+	issn = {15324435},
+	journal = {Journal of Machine Learning Research},
+	keywords = {adaptivity,online learning,stochastic convex optimization,subgradient methods},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {2121--2159},
+	title = {{Adaptive Subgradient Methods for Online Learning and Stochastic Optimization}},
+	url = {http://jmlr.org/papers/v12/duchi11a.html},
+	volume = {12},
+	year = {2011}
+}
+@article{Pascanu2012,
+	abstract = {There are two widely known issues with prop- erly training Recurrent Neural Networks, the vanishing and the exploding gradient prob- lems detailed in Bengio et al. (1994). In this paper we attempt to improve the under- standing of the underlying issues by explor- ing these problems from an analytical, a geo- metric and a dynamical systems perspective. Our analysis is used to justify a simple yet ef- fective solution. We propose a gradient norm clipping strategy to deal with exploding gra- dients and a soft constraint for the vanishing gradients problem. We validate empirically our hypothesis and proposed solutions in the experimental section.},
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1211.5063v2},
+	author = {Pascanu, Razvan and Mikolov, Tomas and Bengio, Yoshua},
+	doi = {10.1109/72.279181},
+	eprint = {arXiv:1211.5063v2},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/pascanu13.pdf:pdf},
+	isbn = {08997667 (ISSN)},
+	issn = {1045-9227},
+	journal = {Proceedings of The 30th International Conference on Machine Learning},
+	mendeley-groups = {LSTMWorkshop},
+	number = {2},
+	pages = {1310--1318},
+	pmid = {18267787},
+	title = {{On the difficulty of training recurrent neural networks}},
+	url = {http://jmlr.org/proceedings/papers/v28/pascanu13.pdf},
+	volume = {28},
+	year = {2013}
+}
+@article{Gers2002,
+	abstract = {The temporal distance between events conveys information essential for numerous sequential tasks such as motor control and rhythm detection. While Hidden Markov Models tend to ignore this information, recurrent neural networks (RNNs) can in principle learn to make use of it. We focus on Long Short-Term Memory (LSTM) because it has been shown to outperform other RNNs on tasks involving long time lags. We find that LSTM augmented by "peephole connections" from its internal cells to its multiplicative gates can learn the fine distinction between sequences of spikes spaced either 50 or 49 time steps apart without the help of any short training exemplars. Without external resets or teacher forcing, our LSTM variant also learns to generate stable streams of precisely timed spikes and other highly nonlinear periodic patterns. This makes LSTM a promising approach for tasks that require the accurate measurement or generation of time intervals.},
+	author = {Gers, Felix a and Schraudolph, Nicol N and Schmidhuber, Jurgen},
+	doi = {10.1162/153244303768966139},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/gers02a.pdf:pdf},
+	issn = {15324435},
+	journal = {Journal of Machine Learning Research},
+	keywords = {long short term memory,recurrent neural networks,timing},
+	mendeley-groups = {LSTMWorkshop},
+	number = {1},
+	pages = {115--143},
+	pmid = {17272722},
+	title = {{Learning Precise Timing with LSTM Recurrent Networks}},
+	url = {http://www.crossref.org/jmlr{\_}DOI.html},
+	volume = {3},
+	year = {2002}
+}
+@article{Hochreiter1997,
+	abstract = {Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow. We briefly review Hochreiter's (1991) analysis of this problem, then address it by introducing a novel, efficient, gradient-based method called long short-term memory (LSTM). Truncating the gradient where this does not do harm, LSTM can learn to bridge minimal time lags in excess of 1000 discrete-time steps by enforcing constant error flow through constant error carousels within special units. Multiplicative gate units learn to open and close access to the constant error flow. LSTM is local in space and time; its computational complexity per time step and weight is O(1). Our experiments with artificial data involve local, distributed, real-valued, and noisy pattern representations. In comparisons with real-time recurrent learning, back propagation through time, recurrent cascade correlation, Elman nets, and neural sequence chunking, LSTM leads to many more successful runs, and learns much faster. LSTM also solves complex, artificial long-time-lag tasks that have never been solved by previous recurrent network algorithms.},
+	archivePrefix = {arXiv},
+	arxivId = {1206.2944},
+	author = {Hochreiter, Sepp and Schmidhuber, J{\"{u}}rgen},
+	doi = {10.1162/neco.1997.9.8.1735},
+	eprint = {1206.2944},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/Hochreiter97{\_}lstm.pdf:pdf},
+	isbn = {08997667 (ISSN)},
+	issn = {0899-7667},
+	journal = {Neural computation},
+	keywords = {Algorithms,Learning,Memory,Memory, Short-Term,Models,Models, Neurological,Models, Psychological,Nerve Net,Nerve Net: physiology,Neural Networks (Computer),Neurological,Psychological,Short-Term,Time Factors},
+	mendeley-groups = {LSTMWorkshop},
+	number = {8},
+	pages = {1735--80},
+	pmid = {9377276},
+	title = {{Long short-term memory.}},
+	url = {http://www.ncbi.nlm.nih.gov/pubmed/9377276},
+	volume = {9},
+	year = {1997}
+}
+@article{Bottou2010,
+	abstract = {During the last decade, the data sizes have grown faster than the speed of processors. In this context, the capabilities of statistical machine learning methods is limited by the computing time rather than the sample size. A more precise analysis uncovers qualitatively different tradeoffs for the case of small-scale and large-scale learning problems. The large-scale case involves the computational complexity of the underlying optimization algorithm in non-trivial ways. Unlikely optimization algorithms such as stochastic gradient descent show amazing performance for large-scale problems. In particular, second order stochastic gradient and averaged stochastic gradient are asymptotically efficient after a single pass on the training set.},
+	author = {Bottou, Le{\'{o}}n},
+	doi = {10.1007/978-3-7908-2604-3_16},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/compstat-2010.pdf:pdf},
+	isbn = {0269-2155},
+	issn = {0269-2155},
+	journal = {Proceedings of COMPSTAT'2010},
+	keywords = {efficiency,online learning,stochastic gradient descent},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {177--186},
+	pmid = {20876631},
+	title = {{Large-Scale Machine Learning with Stochastic Gradient Descent}},
+	year = {2010}
+}
+@article{Rutkauskas2011,
+	author = {Rutkauskas, Aleksandras Vytautas and Maknickas, Algirdas and Maknickienė, N},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/Maknickiene-3-8-Pages-from-IITSBE-2011-2-Nr11.pdf:pdf},
+	journal = {Innovative Infotechnologies for Science, Business and Education},
+	keywords = {dynamic quantile regressions,dynamic treatment models,evolino learning algorithm,financial forecasting and simulation,forecasting models,neural networks and related,non linear time series,orthogonal inputs,pics,prediction of financial markets,recurrent neural networks,simulation methods,time-series models,to-},
+	mendeley-groups = {LSTMWorkshop},
+	number = {687},
+	pages = {3--8},
+	title = {{Investigation of financial market prediction by recurrent neural network}},
+	volume = {2},
+	year = {2011}
+}
+@article{Hausknecht2015,
+	abstract = {Deep Reinforcement Learning has yielded proficient controllers for complex tasks. However, these con-trollers have limited memory and rely on being able to perceive the complete game screen at each deci-sion point. To address these shortcomings, this arti-cle investigates the effects of adding recurrency to a Deep Q-Network (DQN) by replacing the first post-convolutional fully-connected layer with a recur-rent LSTM. The resulting Deep Recurrent Q-Network (DRQN), although capable of seeing only a single frame at each timestep, successfully integrates information through time and replicates DQN's performance on standard Atari games and partially observed equivalents featuring flickering game screens. Additionally, when trained with partial observations and evaluated with in-crementally more complete observations, DRQN's per-formance scales as a function of observability. Con-versely, when trained with full observations and eval-uated with partial observations, DRQN's performance degrades less than DQN's. Thus, given the same length of history, recurrency is a viable alternative to stacking a history of frames in the DQN's input layer and while recurrency confers no systematic advantage when learn-ing to play the game, the recurrent net can better adapt at evaluation time if the quality of observations changes.},
+	archivePrefix = {arXiv},
+	arxivId = {1507.06527},
+	author = {Hausknecht, Matthew and Stone, Peter},
+	eprint = {1507.06527},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1507.06527.pdf:pdf},
+	isbn = {9781577357520},
+	journal = {CoRR},
+	mendeley-groups = {LSTMWorkshop},
+	title = {{Deep Recurrent Q-Learning for Partially Observable MDPs}},
+	url = {http://arxiv.org/abs/1507.06527},
+	year = {2015}
+}
+@misc{Karpathy2015,
+	author = {Karpathy, Andrej},
+	mendeley-groups = {LSTMWorkshop},
+	title = {{The Unreasonable Effectiveness of Recurrent Neural Networks}},
+	year = {2015}
+}
+@article{Karpathy2016,
+	abstract = {Recurrent Neural Networks (RNNs), and specifically a variant with Long Short-Term Memory (LSTM), are enjoying renewed interest as a result of successful applications in a wide range of machine learning problems that involve sequential data. However, while LSTMs provide exceptional results in practice, the source of their performance and their limitations remain rather poorly understood. Using character-level language models as an interpretable testbed, we aim to bridge this gap by providing a comprehensive analysis of their representations, predictions and error types. In particular, our experiments reveal the existence of interpretable cells that keep track of long-range dependencies such as line lengths, quotes and brackets. Moreover, an extensive analysis with finite horizon n-gram models suggest that these dependencies are actively discovered and utilized by the networks. Finally, we provide detailed error analysis that suggests areas for further study.},
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1506.02078v1},
+	author = {Karpathy, Andrej and Johnson, Justin and Fei-Fei, Li},
+	doi = {10.1007/978-3-319-10590-1_53},
+	eprint = {arXiv:1506.02078v1},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1506.02078.pdf:pdf},
+	isbn = {978-3-319-10589-5},
+	issn = {978-3-319-10589-5},
+	journal = {CoRR},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--13},
+	title = {{Visualizing and Understanding Recurrent Networks}},
+	year = {2015}
+}
+@inproceedings{Sutskever2014,
+	author    = {Ilya Sutskever and
+	Oriol Vinyals and
+	Quoc V. Le},
+	title     = {Sequence to Sequence Learning with Neural Networks},
+	booktitle = {Advances in Neural Information Processing Systems 27: Annual Conference
+	on Neural Information Processing Systems 2014, December 8-13 2014,
+	Montreal, Quebec, Canada},
+	pages     = {3104--3112},
+	year      = {2014},
+	crossref  = {DBLP:conf/nips/2014},
+	url       = {http://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks},
+	timestamp = {Wed, 10 Dec 2014 21:34:12 +0100},
+	biburl    = {http://dblp.uni-trier.de/rec/bib/conf/nips/SutskeverVL14},
+	bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+@proceedings{DBLP:conf/nips/2014,
+	editor    = {Zoubin Ghahramani and
+	Max Welling and
+	Corinna Cortes and
+	Neil D. Lawrence and
+	Kilian Q. Weinberger},
+	title     = {Advances in Neural Information Processing Systems 27: Annual Conference
+	on Neural Information Processing Systems 2014, December 8-13 2014,
+	Montreal, Quebec, Canada},
+	year      = {2014},
+	url       = {http://papers.nips.cc/book/advances-in-neural-information-processing-systems-27-2014},
+	timestamp = {Wed, 10 Dec 2014 21:34:12 +0100},
+	biburl    = {http://dblp.uni-trier.de/rec/bib/conf/nips/2014},
+	bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+@book{Rasmussen2006,
+	author = {Rasmussen, Carl Edward and Williams, Christopher K. I.},
+	mendeley-groups = {LSTMWorkshop},
+	publisher = {The MIT Press},
+	title = {{Gaussian Processes for Machine Learning}},
+	year = {2006}
+}
+@book{Weigend1994,
+	address = {Reading, MA},
+	author = {Weigend, A. S. and Gershenfeld, N. A.},
+	mendeley-groups = {LSTMWorkshop},
+	publisher = {Addison-Wesley},
+	title = {{Time Series Prediction: Forecasting the Future and Understanding the Past.}},
+	year = {1994}
+}
+@book{Andrews1985,
+	address = {New York, New York, USA},
+	author = {Andrews, David F. and Herzberg, A.M.},
+	mendeley-groups = {LSTMWorkshop},
+	publisher = {Springer-Verlag New York},
+	title = {{Data: A Collection of Problems from Many Fields for the Student and Research Worker}},
+	year = {1985}
+}
+@article{Tian2015,
+	author = {Tian, Yongxue and Pan, Li},
+	doi = {10.1109/SmartCity.2015.63},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/07463717.pdf:pdf},
+	isbn = {978-1-5090-1893-2},
+	journal = {2015 IEEE International Conference on Smart City/SocialCom/SustainCom (SmartCity)},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {153--158},
+	title = {{Predicting Short-Term Traffic Flow by Long Short-Term Memory Recurrent Neural Network}},
+	url = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=7463717},
+	year = {2015}
+}
+@article{Snelson2005,
+	author = {Snelson, Edward and Ghahramani, Zoubin},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/pred{\_}VB.pdf:pdf},
+	journal = {Gatsby Computational Neuroscience Unit},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--4},
+	title = {{Variational Bayes for predictive distributions}},
+	year = {2005}
+}
+@article{Pascanu2014,
+	abstract = {We evaluate natural gradient, an algorithm originally proposed in Amari (1997), for learning deep models. The contributions of this paper are as follows. We show the connection between natural gradient and three other recently proposed methods for training deep models: Hessian-Free (Martens, 2010), Krylov Subspace Descent (Vinyals and Povey, 2012) and TONGA (Le Roux et al., 2008). We describe how one can use unlabeled data to improve the generalization error obtained by natural gradient and empirically evaluate the robustness of the algorithm to the ordering of the training set compared to stochastic gradient descent. Finally we extend natural gradient to incorporate second order information alongside the manifold information and provide a benchmark of the new algorithm using a truncated Newton approach for inverting the metric matrix instead of using a diagonal approximation of it.},
+	archivePrefix = {arXiv},
+	arxivId = {1301.3584},
+	author = {Pascanu, Razvan and Bengio, Yoshua},
+	eprint = {1301.3584},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1301.3584v7.pdf:pdf},
+	isbn = {1301.3584},
+	journal = {ICLR 2014},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--18},
+	title = {{Revisiting Natural Gradient for Deep Networks}},
+	url = {http://arxiv.org/abs/1301.3584},
+	year = {2014}
+}
+@article{Martens2010,
+	abstract = {We develop a 2nd-order optimization method based on the Hessian - free approach, and apply it to training deep auto-encoders. Without using pre-training, we obtain results superior to those reported by Hinton Salakhutdinov (2006) on the same tasks they considered. Our ...},
+	author = {Martens, James},
+	doi = {10.1155/2011/176802},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/458.pdf:pdf},
+	isbn = {9781605589077},
+	issn = {20901283},
+	journal = {Proceedings of the 27th International Conference on Machine Learning (ICML-10)},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {735--742},
+	pmid = {21512589},
+	title = {{Deep learning via Hessian-free optimization}},
+	url = {http://www.cs.toronto.edu/{~}asamir/cifar/HFO{\_}James.pdf},
+	volume = {951},
+	year = {2010}
+}
+@article{Bergstra2010,
+	abstract = {Theano is a compiler for mathematical expressions in Python that combines the convenience of NumPy's syntax with the speed of optimized native machine language. The user composes mathematical expressions in a high-level description that mimics NumPy's syntax and semantics, while being statically typed and functional (as opposed to imperative). These expressions allow Theano to provide symbolic differentiation. Before performing computation, Theano optimizes the choice of expressions, translates them into C++ (or CUDA for GPU), compiles them into dynamically loaded Python modules, all automatically. Common machine learning algorithms implemented with Theano are from 1.6× to 7.5× faster than competitive alternatives (including those implemented with C/C++, NumPy/SciPy and MATLAB) when compiled for the CPU and between 6.5× and 44× faster when compiled for the GPU. This paper illustrates how to use Theano, outlines the scope of the compiler, provides benchmarks on both CPU and GPU processors, and explains its overall design.},
+	author = {Bergstra, James and Breuleux, Olivier and Bastien, Frederic Fr{\'{e}}d{\'{e}}ric and Lamblin, Pascal and Pascanu, Razvan and Desjardins, Guillaume and Turian, Joseph and Warde-Farley, David and Bengio, Yoshua},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/theano{\_}scipy2010.pdf:pdf},
+	journal = {Proceedings of the Python for Scientific Computing Conference (SciPy)},
+	mendeley-groups = {LSTMWorkshop},
+	number = {Scipy},
+	pages = {1--7},
+	title = {{Theano: a CPU and GPU math compiler in Python}},
+	url = {http://www-etud.iro.umontreal.ca/{~}wardefar/publications/theano{\_}scipy2010.pdf},
+	volume = {9th},
+	year = {2010}
+}
+@article{Bastien2012,
+	abstract = {Theano is a linear algebra compiler that optimizes a user's symbolically-specified mathematical computations to produce efficient low-level implementations. In this paper, we present new features and efficiency improvements to Theano, and benchmarks demonstrating Theano's performance relative to Torch7, a recently introduced machine learning library, and to RNNLM, a C++ library targeted at recurrent neural networks.},
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1211.5590v1},
+	author = {Bastien, Frederic and Lamblin, Pascal and Pascanu, Razvan and Bergstra, James and Goodfellow, Ian and Bergeron, Arnaud and Bouchard, Nicolas and Warde-Farley, David and Bengio, Yoshua},
+	eprint = {arXiv:1211.5590v1},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1211.5590.pdf:pdf},
+	journal = {NIPS 2012},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--10},
+	title = {{Theano: new features and speed improvements}},
+	url = {http://arxiv.org/abs/1211.5590},
+	year = {2012}
+}
+@misc{tensorflow,
+	title={{TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+	url={http://tensorflow.org/},
+	note={Software available from tensorflow.org},
+	author={
+	Mart\'{\i}n~Abadi and others},
+	year={2015},
+}
+@article{Collobert2011,
+	abstract = {Torch7 is a versatile numeric computing framework and machine learning library that extends Lua. Its goal is to provide a flexible environment to design and train learning machines. Flexibility is obtained via Lua, an extremely lightweight scripting language. High performance is obtained via efficient OpenMP/SSE and CUDA implementations of low-level numeric routines. Torch7 can easily be in- terfaced to third-party software thanks to Lua's light interface.},
+	author = {Collobert, Ronan},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/2011{\_}torch7{\_}nipsw.pdf:pdf},
+	journal = {BigLearn, NIPS Workshop},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--6},
+	title = {{Torch7: A Matlab-like environment for machine learning}},
+	url = {http://infoscience.epfl.ch/record/192376/files/Collobert{\_}NIPSWORKSHOP{\_}2011.pdf},
+	year = {2011}
+}
+@article{Touretzky1989,
+	abstract = {The contents can be easy to find with a geometrical problem, but the hidden layers have yet to give up all their secrets.},
+	author = {Touretzky, David S. and Pomerleau, Dean A.},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/byte-hiddenlayer-1989.pdf:pdf},
+	issn = {0360-5280},
+	journal = {Byte},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {227--233},
+	title = {{What's hidden in the hidden layers?}},
+	url = {http://www.cs.cmu.edu/afs/cs/user/dst/www/pubs/byte-hiddenlayer-1989.pdf},
+	volume = {August},
+	year = {1989}
+}
+@book{Bishop2006,
+	address = {Cambridge},
+	author = {Bishop, Christopher},
+	mendeley-groups = {Dissertation,Dissertation/Hmms,LSTMWorkshop},
+	publisher = {Springer},
+	title = {{Pattern Recognition and Machine Learning}},
+	year = {2006}
+}
+@article{Srivastava2014,
+	abstract = {Deep neural nets with a large number of parameters are very powerful machine learning systems. However, overfitting is a serious problem in such networks. Large networks are also slow to use, making it difficult to deal with overfitting by combining the predictions of many different large neural nets at test time. Dropout is a technique for addressing this problem. The key idea is to randomly drop units (along with their connections) from the neural network during training. This prevents units from co-adapting too much. During training, dropout samples from an exponential number of different “thinned” networks. At test time, it is easy to approximate the effect of averaging the predictions of all these thinned networks by simply using a single unthinned network that has smaller weights. This significantly reduces overfitting and gives major improvements over other regularization methods. We show that dropout improves the performance of neural networks on supervised learning tasks in vision, speech recognition, document classification and computational biology, obtaining state-of-the-art results on many benchmark data sets},
+	archivePrefix = {arXiv},
+	arxivId = {1102.4807},
+	author = {Srivastava, Nitish and Hinton, Geoffrey E. and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
+	doi = {10.1214/12-AOS1000},
+	eprint = {1102.4807},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/JMLRdropout.pdf:pdf},
+	isbn = {1532-4435},
+	issn = {15337928},
+	journal = {Journal of Machine Learning Research (JMLR)},
+	keywords = {deep learning,model combination,neural networks,regularization},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1929--1958},
+	title = {{Dropout : A Simple Way to Prevent Neural Networks from Overfitting}},
+	volume = {15},
+	year = {2014}
+}
+@article{Kawaguchi2016,
+	abstract = {In this paper, we prove a conjecture published in 1989 and also partially address an open problem announced at the Conference on Learning Theory (COLT) 2015. For an expected loss function of a deep nonlinear neural network, we prove the following statements under the independence assumption adopted from recent work: 1) the function is non-convex and non-concave, 2) every local minimum is a global minimum, 3) every critical point that is not a global minimum is a saddle point, and 4) the property of saddle points differs for shallow networks (with three layers) and deeper networks (with more than three layers). Moreover, we prove that the same four statements hold for deep linear neural networks with any depth, any widths and no unrealistic assumptions. As a result, we present an instance, for which we can answer to the following question: how difficult to directly train a deep model in theory? It is more difficult than the classical machine learning models (because of the non-convexity), but not too difficult (because of the nonexistence of poor local minima and the property of the saddle points). We note that even though we have advanced the theoretical foundations of deep learning, there is still a gap between theory and practice.},
+	archivePrefix = {arXiv},
+	arxivId = {1605.07110},
+	author = {Kawaguchi, Kenji},
+	eprint = {1605.07110},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/1605.07110v2.pdf:pdf},
+	mendeley-groups = {LSTMWorkshop},
+	number = {Nips},
+	title = {{Deep Learning without Poor Local Minima}},
+	url = {http://arxiv.org/abs/1605.07110},
+	year = {2016}
+}
+@book{Jurafsky2009,
+	author = {Jurafsky, Daniel and Martin, James H.},
+	edition = {2nd},
+	mendeley-groups = {Dissertation/BirdsongFeatures,Dissertation/Hmms,LSTMWorkshop},
+	publisher = {Prentice Hall},
+	title = {{Speech and Language Processing}},
+	year = {2009}
+}
+@book{Stein1999,
+	author = {Stein, Michael L.},
+	mendeley-groups = {LSTMWorkshop},
+	publisher = {Springer},
+	title = {{Interpolation of Spectral Data}},
+	year = {1999}
+}
+@article{Mayer2008,
+	abstract = {Tying suture knots is a time-consuming task performed frequently during minimally invasive Surgery (MIS). Automating this task could greatly reduce total surgery time for patients. Current solutions to this problem replay manually programmed trajectories, but a more general and robust approach is to use Supervised machine learning to smooth surgeon-given training trajectories and generalize from them. Since knot tying generally requires a controller with internal memory to distinguish between identical inputs that require different actions at different points along a trajectory, it would be impossible to teach the system using traditional feedforward neural nets or support vector machines. Instead we exploit more powerful, recurrent neural networks (RNNs) with adaptive internal states. Results obtained using long short-term memory RNNs trained by the recent Evolino algorithm show that this approach can significantly increase the efficiency of suture knot tying in MIS over preprogrammed control. (C) Koninklijke Brill NV, Leiden and The Robotics Society of Japan, 2008},
+	author = {Mayer, Hermann and Gomez, Faustino and Wierstra, Daan and Nagy, Istvan and Knoll, Alois and Schmidhuber, Jurgen J{\"{u}}rgen},
+	doi = {10.1163/156855308X360604},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/iros06.pdf:pdf},
+	isbn = {142440259X},
+	issn = {0169-1864},
+	journal = {Advanced Robotics},
+	keywords = {artificial evolution,automated,automated knot tying,lstm,minimally invasive surgery,recurrent neural networks,supervised learning},
+	mendeley-groups = {LSTMWorkshop},
+	number = {13-14},
+	pages = {1521--1537},
+	title = {{A System for Robotic Heart Surgery that Learns to Tie Knots Using Recurrent Neural Networks}},
+	url = {http://www.tandfonline.com/doi/abs/10.1163/156855308X360604
+	{\textless}Go to ISI{\textgreater}://WOS:000262712900007
+	http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4059310},
+	volume = {22},
+	year = {2008}
+}
+@article{Rivest2010,
+	abstract = {Dopaminergic neuron activity has been modeled during learning and appetitive behavior, most commonly using the temporal-difference (TD) algorithm. However, a proper representation of elapsed time and of the exact task is usually required for the model to work. Most models use timing elements such as delay-line representations of time that are not biologically realistic for intervals in the range of seconds. The interval-timing literature provides several alternatives. One of them is that timing could emerge from general network dynamics, instead of coming from a dedicated circuit. Here, we present a general rate-based learning model based on long short-term memory (LSTM) networks that learns a time representation when needed. Using a na{\"{i}}ve network learning its environment in conjunction with TD, we reproduce dopamine activity in appetitive trace conditioning with a constant CS-US interval, including probe trials with unexpected delays. The proposed model learns a representation of the environment dynamics in an adaptive biologically plausible framework, without recourse to delay lines or other special-purpose circuits. Instead, the model predicts that the task-dependent representation of time is learned by experience, is encoded in ramp-like changes in single-neuron activity distributed across small neural networks, and reflects a temporal integration mechanism resulting from the inherent dynamics of recurrent loops within the network. The model also reproduces the known finding that trace conditioning is more difficult than delay conditioning and that the learned representation of the task can be highly dependent on the types of trials experienced during training. Finally, it suggests that the phasic dopaminergic signal could facilitate learning in the cortex.},
+	author = {Rivest, Fran{\c{c}}ois and Kalaska, John F. and Bengio, Yoshua},
+	doi = {10.1007/s10827-009-0191-1},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/JCN2009.pdf:pdf},
+	isbn = {5143432111},
+	issn = {09295313},
+	journal = {Journal of Computational Neuroscience},
+	keywords = {Dopamine,Interval-timing,Reinforcement learning,Representation learning,Reward,Trace conditioning},
+	mendeley-groups = {LSTMWorkshop},
+	number = {1},
+	pages = {107--130},
+	pmid = {19847635},
+	title = {{Alternative time representation in dopamine models}},
+	volume = {28},
+	year = {2010}
+}
+@article{ZacharyC.Lipton2015,
+	abstract = {Countless learning tasks require dealing with sequential data. Image captioning, speech synthesis, music generation, and video game playing all require that a model generate sequences of outputs. In other domains, such as time series prediction, video analysis, and music information retrieval, a model must learn from sequences of inputs. Significantly more interactive tasks, such as natural language translation, engaging in dialogue, and robotic control, often demand both. Recurrent neural networks (RNNs) are a powerful family of connectionist models that capture time dynamics via cycles in the graph. Unlike feedforward neural networks, recurrent networks can process examples one at a time, retaining a state, or memory, that reflects an arbitrarily long context window. While these networks have long been difficult to train and often contain millions of parameters, recent advances in network architectures, optimization techniques, and parallel computation have enabled large-scale learning with recurrent nets. Over the past few years, systems based on state of the art long short-term memory (LSTM) and bidirectional recurrent neural network (BRNN) architectures have demonstrated record-setting performance on tasks as varied as image captioning, language translation, and handwriting recognition. In this review of the literature we synthesize the body of research that over the past three decades has yielded and reduced to practice these powerful models. When appropriate, we reconcile conflicting notation and nomenclature. Our goal is to provide a mostly self-contained explication of state of the art systems, together with a historical perspective and ample references to the primary research.},
+	archivePrefix = {arXiv},
+	arxivId = {1506.00019v2},
+	author = {{Zachary C. Lipton}},
+	doi = {10.1145/2647868.2654889},
+	eprint = {1506.00019v2},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/07364089.pdf:pdf},
+	isbn = {9781450330633},
+	issn = {9781450330633},
+	journal = {CoRR},
+	mendeley-groups = {LSTMWorkshop},
+	pages = {1--35},
+	pmid = {18267787},
+	title = {{A Critical Review of Recurrent Neural Networks for Sequence Learning}},
+	year = {2015}
+}
+@article{Sutskever2013,
+	abstract = {Deep and recurrent neural networks (DNNs and RNNs respectively) are powerful models that were considered to be almost impossible to train using stochastic gradient descent with momentum. In this paper, we show that when stochastic gradient descent with momentum uses a well-designed random initialization and a particular type of slowly increasing schedule for the momentum parameter, it can train both DNNs and RNNs (on datasets with long-term dependencies) to levels of performance that were previously achievable only with Hessian-Free optimization. We find that both the initialization and the momentum are crucial since poorly initialized networks cannot be trained with momentum and well-initialized networks perform markedly worse when the momentum is absent or poorly tuned. Our success training these models suggests that previous attempts to train deep and recurrent neural networks from random initializations have likely failed due to poor initialization schemes. Furthermore, carefully tuned momentum methods suffice for dealing with the curvature issues in deep and recurrent network training objectives without the need for sophisticated second-order methods.},
+	author = {Sutskever, Ilya and Martens, James and Dahl, George E and Hinton, Geoffrey E},
+	doi = {10.1109/ICASSP.2013.6639346},
+	file = {:home/ber/Documents/dphil/lstm{\_}workshop/lit/sutskever13.pdf:pdf},
+	isbn = {978-1-4799-0356-6},
+	issn = {15206149},
+	journal = {JMLR: W{\&}CP},
+	keywords = {dblp},
+	mendeley-groups = {LSTMWorkshop},
+	number = {2010},
+	pages = {1139--1147},
+	title = {{On the importance of initialization and momentum in deep learning}},
+	url = {http://dblp.uni-trier.de/db/conf/icml/icml2013.html{\#}SutskeverMDH13},
+	volume = {28},
+	year = {2013}
+}
+@misc{chollet2015keras,
+	title={Keras},
+	author={Chollet, Fran\c{c}ois},
+	year={2015},
+	publisher={GitHub},
+	url={\url{https://github.com/fchollet/keras}},
+}
+@Misc{gpy2014,
+	author =   {{GPy}},
+	title =    {{GPy}: A {Gaussian} process framework in {Python}},
+	url = {\url{http://github.com/SheffieldML/GPy}},
+	year = {2012}
+}
+@article{Xu2014,
+	archivePrefix = {arXiv},
+	arxivId = {arXiv:1502.03044v3},
+	author = {Xu, Kelvin and Courville, Aaron and Zemel, Richard S and Bengio, Yoshua},
+	eprint = {arXiv:1502.03044v3},
+	file = {:home/ber/Documents/dphil/papers/nlp/1502.03044.pdf:pdf},
+	journal = {Proceedings of Machine Learning Research},
+	mendeley-groups = {LSTMWorkshop},
+	title = {{Show , Attend and Tell : Neural Image Caption Generation with Visual Attention}},
+	year = {2014}
+}
+@article{wavenet16,
+	author    = {A{\"{a}}ron van den Oord and
+	Sander Dieleman and
+	Heiga Zen and
+	Karen Simonyan and
+	Oriol Vinyals and
+	Alex Graves and
+	Nal Kalchbrenner and
+	Andrew W. Senior and
+	Koray Kavukcuoglu},
+	title     = {WaveNet: {A} Generative Model for Raw Audio},
+	journal   = {CoRR},
+	volume    = {abs/1609.03499},
+	year      = {2016},
+	url       = {http://arxiv.org/abs/1609.03499},
+	timestamp = {Mon, 03 Oct 2016 17:51:10 +0200},
+	biburl    = {http://dblp.uni-trier.de/rec/bib/journals/corr/OordDZSVGKSK16},
+	bibsource = {dblp computer science bibliography, http://dblp.org}
+}
+@inbook{Gers2001,
+	address = {Berlin, Heidelberg},
+	author = {Gers, Felix A and Eck, Douglas and Schmidhuber, J{\"{u}}rgen},
+	booktitle = {Artificial Neural Networks --- ICANN 2001: International Conference Vienna, Austria, August 21--25, 2001 Proceedings},
+	doi = {10.1007/3-540-44668-0_93},
+	isbn = {978-3-540-44668-2},
+	pages = {669--676},
+	publisher = {Springer Berlin Heidelberg},
+	title = {{Applying LSTM to Time Series Predictable through Time-Window Approaches}},
+	url = {http://dx.doi.org/10.1007/3-540-44668-0{\_}93},
+	year = {2001}
+}
+@INPROCEEDINGS{graves2005, 
+	author={A. Graves and J. Schmidhuber}, 
+	booktitle={Proceedings. 2005 IEEE International Joint Conference on Neural Networks, 2005.}, 
+	title={Framewise phoneme classification with bidirectional LSTM networks}, 
+	year={2005}, 
+	volume={4}, 
+	pages={2047-2052 vol. 4}, 
+	keywords={recurrent neural nets;signal classification;speech recognition;bidirectional training;continuous speech recognition;framewise phoneme classification;long short term memory network;recurrent neural networks;speech database;Acoustic measurements;Data analysis;Databases;Electronic mail;Error correction;Hidden Markov models;Memory architecture;Neural networks;Recurrent neural networks;Speech recognition}, 
+	doi={10.1109/IJCNN.2005.1556215}, 
+	ISSN={2161-4393}, 
+	month=jul,}
+@ARTICLE{bishop_tikhonov,
+	author = {Chris M. Bishop},
+	title = {Training with Noise is Equivalent to Tikhonov Regularization},
+	journal = {Neural Computation},
+	year = {1994},
+	volume = {7},
+	pages = {108--116}
+}
+@article{Salvador_fastdtw,
+	author = {Salvador, Stan and Chan, Philip},
+	title = {Toward Accurate Dynamic Time Warping in Linear Time and Space},
+	journal = {Intell. Data Anal.},
+	issue_date = {October 2007},
+	volume = {11},
+	number = {5},
+	month = oct,
+	year = {2007},
+	issn = {1088-467X},
+	pages = {561--580},
+	numpages = {20},
+	url = {http://dl.acm.org/citation.cfm?id=1367985.1367993},
+	acmid = {1367993},
+	publisher = {IOS Press},
+	address = {Amsterdam, The Netherlands, The Netherlands},
+	keywords = {Dynamic time warping, time series, time series alignment, time series similarity},
+} 
+@article{Monteiro2013,
+	abstract = {This paper proposes a new model for short-term forecasting of electric energy production in a photovoltaic (PV) plant. The model is called HIstorical SImilar MIning (HISIMI) model; its final structure is optimized by using a genetic algorithm, based on data mining techniques applied to historical cases composed by past forecasted values of weather variables, obtained from numerical tools for weather prediction, and by past production of electric power in a PV plant. The HISIMI model is able to supply spot values of power forecasts, and also the uncertainty, or probabilities, associated with those spot values, providing new useful information to users with respect to traditional forecasting models for PV plants. Such probabilities enable analysis and evaluation of risk associated with those spot forecasts, for example, in offers of energy sale for electricity markets. The results of spot forecasting of an illustrative example obtained with the HISIMI model for a real-life grid-connected PV plant, which shows high intra-hour variability of its actual power output, with forecasting horizons covering the following day, have improved those obtained with other two power spot forecasting models, which are a persistence model and an artificial neural network model.},
+	author = {Monteiro, Claudio and Santos, Tiago and Fernandez-Jimenez, L Alfredo and Ramirez-Rosado, Ignacio J and Terreros-Olarte, M Sonia},
+	doi = {10.3390/en6052624},
+	file = {:home/ber/Documents/dphil/papers/energies-06-02624.pdf:pdf},
+	journal = {Energies — Open Access Energy Research, Engineering and Policy Journal},
+	keywords = {data mining,genetic algorithm,power forecasting,solar energy},
+	pages = {2624--2643},
+	title = {{Short-Term Power Forecasting Model for Photovoltaic Plants Based on Historical Similarity}},
+	year = {2013}
+}
+@article{breiman2001random,
+	title={Random forests},
+	author={Breiman, Leo},
+	journal={Machine learning},
+	volume={45},
+	number={1},
+	pages={5--32},
+	year={2001},
+	publisher={Springer}
+}
+
+@InProceedings{pmlr-v48-gal16,
+	title = 	 {Dropout as a Bayesian Approximation: Representing Model Uncertainty in Deep Learning},
+	author = 	 {Yarin Gal and Zoubin Ghahramani},
+	booktitle = 	 {Proceedings of The 33rd International Conference on Machine Learning},
+	pages = 	 {1050--1059},
+	year = 	 {2016},
+	editor = 	 {Maria Florina Balcan and Kilian Q. Weinberger},
+	volume = 	 {48},
+	series = 	 {Proceedings of Machine Learning Research},
+	address = 	 {New York, New York, USA},
+	month = 	 jun,
+	publisher = 	 {PMLR},
+	pdf = 	 {http://proceedings.mlr.press/v48/gal16.pdf},
+	url = 	 {http://proceedings.mlr.press/v48/gal16.html},
+	abstract = 	 {Deep learning tools have gained tremendous attention in applied machine learning. However such tools for regression and classification do not capture model uncertainty. In comparison, Bayesian models offer a mathematically grounded framework to reason about model uncertainty, but usually come with a prohibitive computational cost. In this paper we develop a new theoretical framework casting dropout training in deep neural networks (NNs) as approximate Bayesian inference in deep Gaussian processes. A direct result of this theory gives us tools to model uncertainty with dropout NNs – extracting information from existing models that has been thrown away so far. This mitigates the problem of representing uncertainty in deep learning without sacrificing either computational complexity or test accuracy. We perform an extensive study of the properties of dropout’s uncertainty. Various network architectures and non-linearities are assessed on tasks of regression and classification, using MNIST as an example. We show a considerable improvement in predictive log-likelihood and RMSE compared to existing state-of-the-art methods, and finish by using dropout’s uncertainty in deep reinforcement learning.}
+}
+
+@inproceedings{gal2016theoretically,
+	title={A theoretically grounded application of dropout in recurrent neural networks},
+	author={Gal, Yarin and Ghahramani, Zoubin},
+	booktitle={Advances in neural information processing systems},
+	pages={1019--1027},
+	year={2016}
+}
+
+@inproceedings{zhu2017deep,
+  title={Deep and Confident Prediction for Time Series at Uber},
+  author={Zhu, Lingxue and Laptev, Nikolay},
+  booktitle={Data Mining Workshops (ICDMW), 2017 IEEE International Conference on},
+  pages={103--110},
+  year={2017},
+  organization={IEEE}
+}
+
+@article{srivastava2014dropout,
+	title={Dropout: A simple way to prevent neural networks from overfitting},
+	author={Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
+	journal={The Journal of Machine Learning Research},
+	volume={15},
+	number={1},
+	pages={1929--1958},
+	year={2014},
+	publisher={JMLR. org}
+}
+
+@inproceedings{damianou2013deep,
+	title={Deep gaussian processes},
+	author={Damianou, Andreas and Lawrence, Neil},
+	booktitle={Artificial Intelligence and Statistics},
+	pages={207--215},
+	year={2013}
+}
+
+@incollection{girard2005gaussian,
+  title={Gaussian processes: Prediction at a noisy input and application to iterative multiple-step ahead forecasting of time-series},
+  author={Girard, Agathe and Murray-Smith, Roderick},
+  booktitle={Switching and Learning in Feedback Systems},
+  pages={158--184},
+  year={2005},
+  publisher={Springer}
+}
+
+@article{meinshausen2006quantile,
+	title={Quantile regression forests},
+	author={Meinshausen, Nicolai},
+	journal={Journal of Machine Learning Research},
+	volume={7},
+	number={Jun},
+	pages={983--999},
+	year={2006}
+}
+@book{hastie01statisticallearning,
+  added-at = {2008-05-16T16:17:42.000+0200},
+  address = {New York, NY, USA},
+  author = {Hastie, Trevor and Tibshirani, Robert and Friedman, Jerome},
+  biburl = {https://www.bibsonomy.org/bibtex/2f58afc5c9793fcc8ad8389824e57984c/sb3000},
+  interhash = {d585aea274f2b9b228fc1629bc273644},
+  intrahash = {f58afc5c9793fcc8ad8389824e57984c},
+  keywords = {ml statistics},
+  publisher = {Springer New York Inc.},
+  series = {Springer Series in Statistics},
+  timestamp = {2008-05-16T16:17:43.000+0200},
+  title = {The Elements of Statistical Learning},
+  year = 2001
+}
+
+@misc{tensorflow2015-whitepaper,
+title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+url={https://www.tensorflow.org/},
+note={Software available from tensorflow.org},
+author={
+    Mart\'{\i}n~Abadi and
+    Ashish~Agarwal and
+    Paul~Barham and
+    Eugene~Brevdo and
+    Zhifeng~Chen and
+    Craig~Citro and
+    Greg~S.~Corrado and
+    Andy~Davis and
+    Jeffrey~Dean and
+    Matthieu~Devin and
+    Sanjay~Ghemawat and
+    Ian~Goodfellow and
+    Andrew~Harp and
+    Geoffrey~Irving and
+    Michael~Isard and
+    Yangqing Jia and
+    Rafal~Jozefowicz and
+    Lukasz~Kaiser and
+    Manjunath~Kudlur and
+    Josh~Levenberg and
+    Dandelion~Man\'{e} and
+    Rajat~Monga and
+    Sherry~Moore and
+    Derek~Murray and
+    Chris~Olah and
+    Mike~Schuster and
+    Jonathon~Shlens and
+    Benoit~Steiner and
+    Ilya~Sutskever and
+    Kunal~Talwar and
+    Paul~Tucker and
+    Vincent~Vanhoucke and
+    Vijay~Vasudevan and
+    Fernanda~Vi\'{e}gas and
+    Oriol~Vinyals and
+    Pete~Warden and
+    Martin~Wattenberg and
+    Martin~Wicke and
+    Yuan~Yu and
+    Xiaoqiang~Zheng},
+  year={2015},
+}
+
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+
+@article{ghahramani2001introduction,
+  title={An introduction to hidden Markov models and Bayesian networks},
+  author={Ghahramani, Zoubin},
+  journal={International journal of pattern recognition and artificial intelligence},
+  volume={15},
+  number={01},
+  pages={9--42},
+  year={2001},
+  publisher={World Scientific}
+}
+
+@article{bernardo2003variational,
+  title={The variational Bayesian EM algorithm for incomplete data: with application to scoring graphical model structures},
+  author={Bernardo, JM and Bayarri, MJ and others},
+  journal={Bayesian statistics},
+  year={2003}
+}
+
+@book{Murphy2012,
+    title = {{Machine Learning: A Probabilistic Perspective}},
+    year = {2012},
+    author = {Murphy, Kevin P.},
+    publisher = {MIT Press},
+    address = {Cambridge}
+}
+
+@book{durbin2012time,
+  title={Time Series Analysis by State Space Methods: Second Edition},
+  author={Durbin, J. and Koopman, S.J.},
+  isbn={9780199641178},
+  lccn={2011945385},
+  series={Oxford Statistical Science Series},
+  url={https://books.google.co.uk/books?id=fOq39Zh0olQC},
+  year={2012},
+  publisher={OUP Oxford}
+}
+
+@article{Fulcher20130048,
+abstract = {The process of collecting and organizing sets of observations represents a common theme throughout the history of science. However, despite the ubiquity of scientists measuring, recording and analysing the dynamics of different processes, an extensive organization of scientific time-series data and analysis methods has never been performed. Addressing this, annotated collections of over 35 000 real-world and model-generated time series, and over 9000 time-series analysis algorithms are analysed in this work. We introduce reduced representations of both time series, in terms of their properties measured by diverse scientific methods, and of time-series analysis methods, in terms of their behaviour on empirical time series, and use them to organize these interdisciplinary resources. This new approach to comparing across diverse scientific data and methods allows us to organize time-series datasets automatically according to their properties, retrieve alternatives to particular analysis methods developed in other scientific disciplines and automate the selection of useful methods for time-series classification and regression tasks. The broad scientific utility of these tools is demonstrated on datasets of electroencephalograms, self-affine time series, heartbeat intervals, speech signals and others, in each case contributing novel analysis techniques to the existing literature. Highly comparative techniques that compare across an interdisciplinary literature can thus be used to guide more focused research in time-series analysis for applications across the scientific disciplines.},
+author = {Fulcher, Ben D and Little, Max A and Jones, Nick S},
+doi = {10.1098/rsif.2013.0048},
+issn = {1742-5689},
+journal = {Journal of The Royal Society Interface},
+number = {83},
+publisher = {The Royal Society},
+title = {{Highly comparative time-series analysis: the empirical structure of time series and their methods}},
+url = {http://rsif.royalsocietypublishing.org/content/10/83/20130048},
+volume = {10},
+year = {2013}
+}
+
+@inproceedings{seabold2010statsmodels,
+  title={Statsmodels: Econometric and statistical modeling with python},
+  author={Seabold, Skipper and Perktold, Josef},
+  booktitle={9th Python in Science Conference},
+  year={2010},
+}
+
+@article{guo2017calibration,
+  title={On calibration of modern neural networks},
+  author={Guo, Chuan and Pleiss, Geoff and Sun, Yu and Weinberger, Kilian Q},
+  journal={arXiv preprint arXiv:1706.04599},
+  year={2017}
+}
+
+@article{vanDerMaaten2008,
+  added-at = {2015-06-19T12:07:15.000+0200},
+  author = {van der Maaten, Laurens and Hinton, Geoffrey},
+  biburl = {https://www.bibsonomy.org/bibtex/28b9aebb404ad4a4c6a436ea413550b30/lopusz_kdd},
+  interhash = {370ba8b9e1909b61880a6f47c93bcd49},
+  intrahash = {8b9aebb404ad4a4c6a436ea413550b30},
+  journal = {Journal of Machine Learning Research},
+  keywords = {dimensionality_reduction tSNE visualization},
+  pages = {2579--2605},
+  timestamp = {2015-08-19T15:19:11.000+0200},
+  title = {Visualizing Data using {t-SNE} },
+  url = {http://www.jmlr.org/papers/v9/vandermaaten08a.html},
+  volume = 9,
+  year = 2008
+}
+
